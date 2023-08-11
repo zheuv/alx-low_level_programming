@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints single-digit numbers in base 10 followed by a new line using putchar.
+ * Descri base 10 followed by a new line using putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	while (digit < 10)
 	{
-		putchar(digit + '0'); 
+		putchar(digit + '0');
 		digit++;
 	}
 
