@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the lowercase alphabet (excluding 'e' and 'q') followed by a new line using putchar.
+ * Description:  a new line using putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-		if (letter != 'e' && letter != 'q') // Check if letter is not 'e' or 'q'
+		if (letter != 'e' && letter != 'q')'
 		{
 			putchar(letter);
 		}
