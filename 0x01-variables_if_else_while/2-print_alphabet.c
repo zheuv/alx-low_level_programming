@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the lowercase alphabet followed by a new line using putchar.
+ * Description: Prints the lowe.
  * Return: Always 0 (Success)
  */
 int main(void)
