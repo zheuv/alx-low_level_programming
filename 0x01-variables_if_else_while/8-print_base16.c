@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints numbers of base 16 in lowercase followed by a new line using putchar.
+ * Descripse followed by a new line using putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,8 +14,6 @@ int main(void)
 	{
 		putchar(number + '0');
 	}
-
-	putchar('\n');
 
 	for (number = 'a'; number <= 'f'; number++)
 	{
