@@ -3,20 +3,21 @@
 /**
  * main - Entry point of the program
  *
- * Descri base 10 followed by a new line using putchar.
+ * Descrs in base 10 followed by a new line using putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-        int digit = 0;
+	int digit = 0;
 
-        while (digit < 10)
-        {
-                putchar(digit + '0');
-                digit++;
-        }
+	while (digit < 10)
+	{
+		putchar(digit + '0');
+		digit++;
+	}
 
-        putchar('\n');
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
+
