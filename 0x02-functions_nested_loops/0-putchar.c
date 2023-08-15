@@ -1,8 +1,12 @@
 #include <stdio.h>
+
 /**
-*blabla
-*blabla
-*/
+ * main - Entry point
+ *
+ * Description: Prints "_putchar" followed by a newline
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
