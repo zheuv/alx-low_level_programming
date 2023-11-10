@@ -1,13 +1,10 @@
 #include "lists.h"
 
 /**
- * @brief Prints the elements of a doubly linked list.
+ * print_dlistint - print all the elements of a dlistint_t list
+ * @h: pointer to the start of the linked list
  *
- * This function prints the elements of a doubly linked list, starting from
- * the given node.
- *
- * @param h Pointer to the head of the doubly linked list.
- * @return Number of elements in the list.
+ * Return: number of nodes
  */
 
 size_t print_dlistint(const dlistint_t *h)
