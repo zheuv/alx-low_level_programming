@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * @brief Prints the elements of a doubly linked list.
