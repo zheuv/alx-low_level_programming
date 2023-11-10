@@ -11,7 +11,7 @@
  * Description: doubly linked list node structure
  * 
  */
-typedef struct dlistint_s
+typedef struct dlistint_t
 {
     int n;
     struct dlistint_s *prev;
