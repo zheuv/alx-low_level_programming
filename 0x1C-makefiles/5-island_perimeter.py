@@ -12,7 +12,7 @@ def island_perimeter(grid):
                 flag = 1
                 if (j == 0) or (i == 0):
                     p += 2
-                elif not(
+                elif not (
                     grid[j-1][i] == 1 and
                     grid[j][i-1] == 1 and
                     grid[j-1][i-1] == 1
