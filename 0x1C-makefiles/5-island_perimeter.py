@@ -20,4 +20,4 @@ def island_perimeter(grid):
                     p += 2
     if flag == 1:
         p += 2
-    return(p)
+    return (p)
