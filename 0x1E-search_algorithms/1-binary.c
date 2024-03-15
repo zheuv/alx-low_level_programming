@@ -4,7 +4,7 @@
  * print_array - Prints the elements of an array within a specified range.
  *
  * @array: Pointer to the first element of the array.
- * @begin: Index of the first element to print.
+ * @beguin: Index of the first element to print.
  * @end: Index of the last element to print.
  */
 void print_array(int *array, size_t beguin, size_t end)
