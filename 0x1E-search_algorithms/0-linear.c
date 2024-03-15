@@ -1,5 +1,9 @@
 #include "search_algos.h"
-
+/**
+* linear_search: searches for a value
+* 
+* Return: j(its index) if found, -1 otherwise
+**/
 
 int linear_search(int *array, size_t size, int value)
 {
