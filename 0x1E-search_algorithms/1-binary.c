@@ -34,7 +34,10 @@ int binary_search(int *array, size_t size, int value)
 	size_t  cursor;
 	size_t end;
 	size_t beguin;
-
+	if (array == NULL)
+	{
+		return -1;
+	}
 	end = size - 1;
 	beguin = 0;
 	while (beguin <= end)
